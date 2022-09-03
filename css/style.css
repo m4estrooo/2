@@ -186,14 +186,12 @@ nav {
   font-size: 100px;
   line-height: 121px;
 }
+.one__text span {
+  color: #ffffff;
+  background-color: #000000;
+}
 .one__text .one__btn {
   padding-top: 17px;
-}
-.one__text span {
-  background-color: #000000;
-  color: #ffffff;
-  padding: 0 20px;
-  padding-bottom: 3px;
 }
 .one__text a {
   font-size: 24px;
@@ -202,7 +200,7 @@ nav {
   background-color: #000000;
   border: 2px solid #000000;
   border-radius: 5px;
-  padding: 25px 40px;
+  padding: 24px 38px;
 }
 .one__text a:hover {
   border: 2px solid #000000;
@@ -229,17 +227,17 @@ nav {
 }
 @-webkit-keyframes card {
   0% {
-    top: 170px;
+    top: 160px;
   }
   100% {
-    top: 180px;
+    top: 170px;
   }
 }
 @keyframes card {
   0% {
-    top: 170px;
+    top: 160px;
   }
   100% {
-    top: 180px;
+    top: 170px;
   }
 }
