@@ -110,10 +110,29 @@ nav {
 	font-size: 100px;
 	line-height: 121px;
 
+	// span {
+	// 	color: #ffffff;
+	// 	background-color: #000000;
+	// 	padding: 0 12px;
+	// 	display: inline-block;
+	// }
+
 	span {
 		color: #ffffff;
-		background-color: #000000;
+
+		&:before {
+			content: '';
+			display: inline-block;
+			position: absolute;
+			left: 665px;
+			top: 391px;
+			z-index: -1;
+			width: 174px;
+			height: 108px;
+			background: #000000;
+		}
 	}
+
 
 	.one__btn {
 		padding-top: 17px;
