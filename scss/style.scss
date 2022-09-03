@@ -97,7 +97,7 @@ nav {
 	img {
 		max-width: 772px;
 		max-height: 772px;
-		animation: card 0.5s linear infinite alternate, card_shadow 2s linear infinite alternate;
+		animation: card 1s linear infinite alternate, card_shadow 1s linear infinite alternate;
 		position: relative;
 		padding-left: 150px;
 		right: 146px;
@@ -126,8 +126,15 @@ nav {
 		line-height: 29px;
 		color: #FFFFFF;
 		background-color: #000000;
+		border: 2px solid #000000;
 		border-radius: 5px;
 		padding: 25px 40px;
+
+		&:hover {
+			border: 2px solid #000000;
+			color: #000000;
+			background-color: #ffffff;
+		}
 	}
 }
 
